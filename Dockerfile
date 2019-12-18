@@ -1,4 +1,4 @@
-FROM mbradle/docker_ubuntu19_webnucleo
+FROM webnucleo/ubuntu
 WORKDIR /my-projects
 
 RUN git clone https://mbradle@bitbucket.org/mbradle/wn_user.git
